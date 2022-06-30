@@ -1,5 +1,5 @@
 <template>
-  <div>
+  <div id="footer">
     probando Footer
   </div>
 </template>

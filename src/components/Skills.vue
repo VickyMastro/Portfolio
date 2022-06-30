@@ -1,5 +1,5 @@
 <template>
-  <div>
+  <div id="skills">
     probando Skills
   </div>
 </template>
