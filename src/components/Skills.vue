@@ -62,7 +62,7 @@
                 height="25"
               />
               VUE:
-              <span class="html-skills">Components anatomy, vuex, events, directives</span>
+              <span class="html-skills">Components, vuex, router, events, directives</span>
             </b-list-group-item>
 
             <b-list-group-item class="border-0">
