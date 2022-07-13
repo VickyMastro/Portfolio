@@ -1,5 +1,5 @@
 <template>
-  <div id="footer">
+  <div id="contact">
     <b-container fluid>
       <b-row class="title-contact">
         <b-col sm="12"> Contact Me </b-col>
@@ -44,7 +44,8 @@ export default {
 }
 
 .footer-a {
-  color: black !important;
+  color: #2c3e50 !important;
+  font-size: 25px;
   text-decoration: none;
 }
 </style>
