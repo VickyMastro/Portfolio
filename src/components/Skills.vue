@@ -1,5 +1,5 @@
 <template>
-  <div id="skills" class="mb-3">
+  <div id="skills" class="mb-3 pt-5">
     <b-container fluid>
       <b-row class="title-skills">
         <b-col sm="12"> Skills </b-col>
