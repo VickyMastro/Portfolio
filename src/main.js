@@ -16,6 +16,10 @@ Vue.use(vueScrollto, {
   duration: 100,
 })
 
+// dark mode
+import VueDarkMode from '@vue-a11y/dark-mode'
+Vue.use(VueDarkMode)
+
 new Vue({
   render: h => h(App),
 }).$mount('#app')
