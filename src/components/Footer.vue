@@ -6,14 +6,26 @@
       </b-row>
     </b-container>
 
-    <hr style="width: 80%; margin-left: 10%" />
+    <hr style="width: 80%; margin-left: 10%; color: var(--dividing-line)" />
 
     <div class="footer-container">
-      <a class="footer-a" href="#"> Twitter </a>
+      <a
+        href="https://twitter.com/MastroVicky?t=Anh2T0VaJESMoYWqJYTRnQ&s=09"
+        target="_blank"
+      >
+        Twitter
+      </a>
 
-      <a class="footer-a" href="#"> Linkedin </a>
+      <a href="mailto:vicmastroianni1702@gmail.com">Gmail</a>
 
-      <a class="footer-a" href="#"> GitHub </a>
+      <a
+        href="https://www.linkedin.com/in/victoria-mastroianni-956479222/"
+        target="_blank"
+      >
+        Linkedin
+      </a>
+
+      <a href="https://github.com/VickyMastro" target="_blank"> GitHub </a>
     </div>
   </div>
 </template>
@@ -25,6 +37,11 @@ export default {
 </script>
 
 <style scoped>
+.title-contact {
+  font-size: 35px;
+  color: var(--title-color);
+}
+
 .footer-container {
   height: 50px;
   background-color: #1aac9b;
@@ -33,17 +50,7 @@ export default {
   align-items: center;
 }
 
-.title-contact {
-  font-size: 35px;
-  color: #1aac9b;
-}
-.contact-icons {
-  display: flex;
-  flex-direction: row;
-  justify-content: space-between;
-}
-
-.footer-a {
+.footer-container a {
   color: #2c3e50 !important;
   font-size: 25px;
   text-decoration: none;
