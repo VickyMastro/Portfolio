@@ -6,7 +6,7 @@
       </b-row>
     </b-container>
 
-    <hr style="width: 80%; margin-left: 10%; color: var(--dividing-line)" />
+    <hr class="hr"/>
 
     <div class="footer-container">
       <a

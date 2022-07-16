@@ -5,7 +5,7 @@
         <b-col sm="12"> Projects </b-col>
       </b-row>
 
-      <hr style="width: 80%; margin-left: 10%; color: var(--dividing-line)" />
+      <hr class="hr"/>
 
       <b-row align-h="around">
         <b-col sm="8" md="4" class="d-flex justify-content-around">

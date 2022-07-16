@@ -57,4 +57,10 @@ html.light-mode {
   transition: all 0.5s ease-in-out;
   background-color: var(--bg);
 }
+
+.hr {
+  width: 80%;
+  margin-left: 10%;
+  color: var(--dividing-line);
+}
 </style>

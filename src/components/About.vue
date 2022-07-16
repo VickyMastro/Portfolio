@@ -5,7 +5,7 @@
         <b-col sm="12"> About Me </b-col>
       </b-row>
       
-      <hr style="width: 80%; margin-left: 10%; color: var(--dividing-line);"/>
+      <hr class="hr"/>
 
       <b-row align-h="center">
         <b-col sm="6">
