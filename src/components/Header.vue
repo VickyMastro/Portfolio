@@ -1,5 +1,5 @@
 <template>
-  <b-navbar toggleable="lg" type="dark" sticky class="navbar-container px-3">
+  <b-navbar toggleable="lg" type="dark" class="navbar-container px-3 fixed-top">
     <DarkMode :modes="['light', 'dark']">
       <template v-slot="{ mode }">
         <button style="background-color: inherit; border: none">
