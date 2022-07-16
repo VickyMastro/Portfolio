@@ -5,14 +5,10 @@
         <b-col sm="12"> Projects </b-col>
       </b-row>
 
-      <hr style="width: 80%; margin-left: 10%; color: #1aac9b" />
+      <hr style="width: 80%; margin-left: 10%; color: var(--dividing-line)" />
 
       <b-row align-h="around">
-        <b-col
-          sm="8"
-          md="4"
-          class="d-flex justify-content-around"
-        >
+        <b-col sm="8" md="4" class="d-flex justify-content-around">
           <b-card
             title="Card "
             img-src="https://picsum.photos/600/300/?image=20"
@@ -91,12 +87,14 @@ export default {
 <style scoped>
 .title-projects {
   font-size: 35px;
-  color: #1aac9b;
+  color: var(--title-color);
 }
 
 .card-container {
+  color: var(--desc-color);
   border: none;
-  box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+  background-color: inherit;
+  box-shadow: var(--card-border) 0px 5px 15px;
 }
 
 .project-buttons {
@@ -105,8 +103,9 @@ export default {
   box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
 }
 
-.project-buttons:hover {
+.project-buttons:focus , 
+.project-buttons:hover{
   background-color: #1aac9b;
-
+  box-shadow: none;
 }
 </style>

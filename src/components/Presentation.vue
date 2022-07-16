@@ -11,7 +11,7 @@
           ></b-img>
         </b-col>
 
-        <b-col sm="12" md="6">
+        <b-col sm="12" md="6" class="pt-5">
           <span>¡Hi! I'm Victoria Mastroianni,</span>
           <br/>
           <span>Front-End Developer</span>
@@ -30,5 +30,6 @@ export default {
 <style scoped>
 span{
   font-size: 35px;
+  color: var(--presentation-color);
 }
 </style>

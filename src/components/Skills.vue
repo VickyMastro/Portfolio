@@ -5,7 +5,7 @@
         <b-col sm="12"> Skills </b-col>
       </b-row>
 
-      <hr style="width: 80%; margin-left: 10%" />
+      <hr style="width: 80%; margin-left: 10%; color: var(--dividing-line);" />
 
       <b-row align-h="center">
         <b-col sm="10">
@@ -90,6 +90,11 @@ export default {
 </script>
 
 <style scoped>
+.list-group-item{
+  background-color: inherit;
+  color: var(--desc-color);
+}
+
 .title-skills {
   font-size: 35px;
   color: #1aac9b;
