@@ -18,7 +18,7 @@
                 height="25"
               />
               HTML5:
-              <span class="html-skills">Manipulación del DOM, Semántica de etiquetas, Atributos</span>
+              <span class="html-skills">DOM manipulation, semantic tags, attributes</span>
             </b-list-group-item>
 
             <b-list-group-item class="border-0">
@@ -29,7 +29,7 @@
                 height="25"
               />
               CSS3:
-              <span class="html-skills">Pseudo-classes, Media Query, Pseudo-elements </span>
+              <span class="html-skills">Pseudo-classes, Media Query, Pseudo-elements, responsive design </span>
             </b-list-group-item>
 
             <b-list-group-item class="border-0">
@@ -40,7 +40,7 @@
                 height="25"
               />
               JAVASCRIPT:
-              <span class="html-skills">POO, Asincronismo, ECMAScript</span>
+              <span class="html-skills">Object-oriented programming, asynchrony, ECMAScript</span>
             </b-list-group-item>
 
             <b-list-group-item class="border-0">
@@ -51,7 +51,7 @@
                 height="25"
               />
               BOOTSTRAP:
-              <span class="html-skills">Components, Layout </span>
+              <span class="html-skills">Components, Layout, system class </span>
             </b-list-group-item>
 
             <b-list-group-item class="border-0">
